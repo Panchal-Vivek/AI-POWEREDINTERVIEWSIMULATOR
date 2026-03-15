@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Interview Simulator</title>
+</head>
+<body>
+
+<h2>AI Interview Simulator</h2>
+
+<button id="startBtn">Start Interview</button>
+
+<div id="sessionBox" style="display:none;">
+    <p>Session ID: <span id="sessionId"></span></p>
+    <p id="question"></p>
+
+    <textarea id="answer" placeholder="Type answer"></textarea><br><br>
+
+    <select id="difficulty">
+        <option value="1">Easy</option>
+        <option value="2">Medium</option>
+        <option value="3">Hard</option>
+    </select><br><br>
+
+    <button id="submitBtn">Submit Answer</button>
+
+    <p>Score: <span id="score">0</span></p>
+    <p>Level: <span id="level">-</span></p>
+    <p>Status: <span id="status">-</span></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
